@@ -1,0 +1,98 @@
+body{
+    font-family: "Josefin Sans";
+    color:#000000;
+}
+/*Header*/
+.dropdown-toggle{
+    margin-left: 20px;
+}
+.dropdown-menu{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.884);
+}
+.dropdown-item:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+/*Slider*/
+.carousel-indicators{
+    margin-right: 0;
+    margin-left: 70%;
+}
+.bd-example{
+    margin-bottom: 20px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+h5{
+    color:#7c172a;
+} 
+p{
+ color:#000000;
+}
+/*Card*/
+
+.card-title{
+    color: #000000;
+}
+.card-text{
+    color:#565656;
+}
+.container .row{
+    margin-bottom: 20px;
+    padding: 0 15px 0 15px;
+}
+/*Recipe*/
+.recipe_title{
+    padding-top: 15px;
+    font-size: 20px;;
+          
+}
+.recipe_ingredient{
+    font-size: 20px;
+    color: #000000;
+}
+.recipe_text{
+    max-height: 150px;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px 0 15px 0;
+    overflow-y: scroll; 
+}
+/*Comment*/
+.container .comment_lable{
+    margin: 0;
+}
+.row .btn{
+    border-radius:0;
+}
+.post_comment{
+    font-size: 24px;
+}
+.post_social{
+    font-size: 16px;
+}
+/* Page */
+.container .pagination a{
+    color:#000000;
+}
+/*footer*/
+.footer{
+    padding: 20px 0 20px 0;
+    background-color:#000000;
+    color:#555555;
+}
+.row p{
+    color:#555555;
+}
+@media(max-width:1200px){
+    .container .row .recipe{
+        display: flex;
+        flex-direction: column;
+    }
+}
